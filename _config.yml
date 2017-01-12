@@ -15,7 +15,7 @@ owner:
   email:          danieljuvito@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        danieljuvito
-  facebook:       
+  facebook:       danieljuvito
   github:         danieljuvito
   stackexchange:  
   linkedin:       
@@ -87,6 +87,7 @@ exclude:
   - package.json
   - spec
   - tmp
+  - _excludes
 
-gist:
-  noscript: false
+gist:             # To resolve highlighting problem
+  noscript: false #
