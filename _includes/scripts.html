@@ -1,6 +1,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
+<!--<script src="{{ site.url }}/assets/js/scripts.min.js"></script>-->
 
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
@@ -17,3 +17,14 @@
 {% endif %}
 
 {% if page.comments != false %}{% include disqus_comments.html %}{% endif %}
+
+<script src="{{ site.url }}/assets/js/plugins/jquery.dlmenu.js"></script>
+<script>
+  $(function () {
+    $('#dl-menu').dlmenu({
+      animationClasses: { in: 'dl-animate-in-5',
+        out: 'dl-animate-out-5'
+      }
+    });
+  });
+</script>
