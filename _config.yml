@@ -1,59 +1,49 @@
-title:            Jack of All Trades
-description:      Master of All
+---
+title: Jack of All Trades
+timezone: Asia/Jakarta
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Master of All
 disqus_shortname: danieljuvito
-reading_time:     true
+reading_time: true
 words_per_minute: 200
-# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
-# When testing locally leave blank or use http://localhost:4000
 url: 
-
-# Owner/author information
 owner:
-  name:           Daniel Juvito
-  avatar:         vito.jpg
-  bio:            "Human Wannabe."
-  email:          danieljuvito@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        danieljuvito
-  facebook:       danieljuvito
-  github:         danieljuvito
-  stackexchange:  
-  linkedin:       
-  instagram:      danieljuvito
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
-
-# Background image to be tiled on all pages
+  name: Daniel Juvito
+  avatar: vito.jpg
+  bio: Human Wannabe.
+  email: danieljuvito@gmail.com
+  twitter: danieljuvito
+  facebook: danieljuvito
+  github: danieljuvito
+  stackexchange: 
+  linkedin: 
+  instagram: danieljuvito
+  flickr: 
+  tumblr: 
+  google_plus: 
 background: 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Jakarta
-future:      false  # publish future dated posts --  true, false (default) 
+google_analytics: 
+google_verify: 
+bing_verify: 
+future: false
 highlighter: rouge
-markdown:    kramdown
+markdown: kramdown
 gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-gist
+- jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
+permalink: "/:categories/:title/"
 paginate: 5
-
 kramdown:
   input: GFM
   auto_ids: true
@@ -61,33 +51,31 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
-include: 
-  - .htaccess
-exclude: 
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
-  - _excludes
-
-gist:             # To resolve highlighting problem
-  noscript: false #
+include:
+- ".htaccess"
+exclude:
+- "*.less"
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- CHANGELOG
+- Capfile
+- Gemfile
+- Gruntfile.js
+- LICENSE
+- README
+- Rakefile
+- config
+- gulpfile.js
+- lib
+- log
+- node_modules
+- package.json
+- spec
+- tmp
+- _excludes
+gist:
+  noscript: false
