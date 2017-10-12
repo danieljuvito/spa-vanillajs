@@ -16,7 +16,7 @@ layout: post
 $$x^2 + 1 = 0$$
 
 <script type="text/javascript">
-  $.ajax({
+  jQuery.ajax({
     url: "http://api.mathjs.org/v1/?expr=2%2B3*sqrt(4)",
     success: function (result) {
       if(result) {
