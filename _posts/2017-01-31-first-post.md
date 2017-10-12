@@ -15,7 +15,16 @@ layout: post
 
 $$x^2 + 1 = 0$$
 
-\\$x^2 + 1 = 0\\$
+<script type="text/javascript">
+  $.ajax({
+    url: http://api.mathjs.org/v1/?expr=2%2B3*sqrt(4),
+    result: if(success) {
+        console.log("Success");
+      } else {
+        console.log("Fail");
+      }
+  });
+</script>
 
 ```latex
 f(x) = \int_{-\infty}^\infty
