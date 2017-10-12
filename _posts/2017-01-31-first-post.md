@@ -18,7 +18,7 @@ $$x^2 + 1 = 0$$
 <script type="text/javascript">
   $(function () {
     jQuery.ajax({
-      url: "http://api.mathjs.org/v1/?expr=2%2B3*sqrt(4)",
+      url: "https://api.mathjs.org/v1/?expr=2%2B3*sqrt(4)",
       success: function (result) {
         if(result) {
           console.log("Success");
