@@ -10,3 +10,9 @@ layout: post
 ---
 
 \\(x^2 \+ 1 = 0\\)
+
+```latex
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+```
