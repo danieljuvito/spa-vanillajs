@@ -10,6 +10,7 @@ layout: post
 ---
 
 \\(x^2 \+ 1 = 0\\)
+$$x^2 + 1 = 0$$
 
 ```latex
 f(x) = \int_{-\infty}^\infty
