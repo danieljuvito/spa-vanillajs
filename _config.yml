@@ -2,9 +2,6 @@
 title: Jack of All Trades
 timezone: Asia/Jakarta
 collections:
-  home:
-    title: Home
-    output: false
   posts:
     title: Posts
     output: true
