@@ -23,8 +23,7 @@ image:
 {% endfor %}
 {% endcomment %}
 
-{% assign pages = site.pages | where:"home","true" %}
-{% for post in pages %}
+{% for post in site.home %}
 <article class="hentry">
   <header>
     {% if post.image.feature %}
