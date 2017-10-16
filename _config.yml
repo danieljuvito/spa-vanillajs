@@ -4,7 +4,7 @@ timezone: Asia/Jakarta
 collections:
   home:
     title: Home
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
