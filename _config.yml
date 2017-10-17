@@ -22,10 +22,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 owner:
-  name: Daniel Allan Juvito
+  name: Daniel Juvito
   email: danieljuvito@gmail.com
-  twitter: danieljuvito
   github:  danieljuvito
+  linkedin: daniel-juvito
+  twitter: danieljuvito
+  instagram: danieljuvito
+  
 
 # Build settings
 markdown: kramdown
