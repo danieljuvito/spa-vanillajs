@@ -1,8 +1,8 @@
 ---
 title: Contact
-position: 1
-order: 4
+position: 3
 show: true
+link: '#contact'
 ---
 
 <form method="post" action="#">

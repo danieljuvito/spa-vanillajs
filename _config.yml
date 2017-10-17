@@ -16,6 +16,7 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 baseurl: 
 url: 
+version: 1.0.2
 owner:
   name: Daniel Juvito
   email: danieljuvito@gmail.com

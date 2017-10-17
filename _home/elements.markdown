@@ -1,6 +1,8 @@
 ---
-title: Elements
-position: 2
+title: Intro
+position: 5
+show: false
+link: '#element'
 ---
 
 <section>

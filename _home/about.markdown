@@ -1,8 +1,8 @@
 ---
 title: About
-position: 0
-order: 3
+position: 2
 show: true
+link: '#about'
 ---
 
 <span class="image main">![](images/pic03.jpg)</span>
