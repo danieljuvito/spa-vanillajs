@@ -1,6 +1,6 @@
 ---
 title: Intro
-position: 1
+position: 0
 show: true
 link: "#intro"
 ---
