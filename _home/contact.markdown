@@ -1,4 +1,5 @@
 ---
+title: Contact
 order: 4
 show: true
 ---
