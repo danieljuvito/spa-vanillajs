@@ -1,7 +1,9 @@
 ---
+title: home
 layout: home
 ---
 
-<h1>Dimension</h1>
-<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+# Dimension
+
+A fully responsive site template designed by [HTML5 UP](https://html5up.net) and released<br />
+for free under the [Creative Commons](https://html5up.net/license) license.
