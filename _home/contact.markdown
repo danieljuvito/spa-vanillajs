@@ -23,8 +23,8 @@ show: true
     </ul>
 </form>
 <ul class="icons">
-    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-    <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+    <li><a href="https://github.com/{{ site.owner.github }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+    <li><a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">Linked In</span></a></li>
+    <li><a href="https://twitter.com/{{ site.owner.twitter }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+    <li><a href="https://www.instagram.com/{{ site.owner.instagram }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 </ul>

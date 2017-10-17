@@ -17,10 +17,12 @@ description: Write an awesome description for your new site here. You can edit t
 baseurl: 
 url: 
 owner:
-  name: Daniel Allan Juvito
+  name: Daniel Juvito
   email: danieljuvito@gmail.com
+  github:  danieljuvito
+  linkedin: daniel-juvito
   twitter: danieljuvito
-  github: danieljuvito
+  instagram: danieljuvito
 markdown: kramdown
 plugins:
 - jekyll-feed
