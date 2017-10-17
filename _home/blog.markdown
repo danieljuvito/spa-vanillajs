@@ -1,6 +1,6 @@
 ---
 title: Blog
-position: 4
+position: 3
 show: true
 link: "/blog"
 ---
