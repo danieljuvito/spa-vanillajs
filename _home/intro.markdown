@@ -1,5 +1,6 @@
 ---
 title: Intro
+position: 3
 order: 1
 show: true
 ---

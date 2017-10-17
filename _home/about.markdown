@@ -1,5 +1,6 @@
 ---
 title: About
+position: 1
 order: 3
 show: true
 ---

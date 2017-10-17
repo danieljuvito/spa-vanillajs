@@ -1,5 +1,6 @@
 ---
 title: Work
+position: 4
 order: 2
 show: true
 ---

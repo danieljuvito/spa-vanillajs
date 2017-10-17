@@ -1,5 +1,6 @@
 ---
 title: Contact
+position: 0
 order: 4
 show: true
 ---
