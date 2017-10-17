@@ -1,4 +1,8 @@
 ---
+title: Intro
+position: 5
+show: false
+link: '#element'
 ---
 
 <section>

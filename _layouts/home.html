@@ -28,7 +28,7 @@
 						<nav>
 							<ul>
 								{% for p in home %}
-								<li><a href="{{ p.order | prepend: '#' }}">{{ p.title }}</a></li>
+									<li><a href="{{ p.link }}">{{ p.title }}</a></li>
 								{% endfor %}
 							</ul>
 						</nav>
@@ -38,7 +38,7 @@
 					<div id="main">
 
 						{% for p in home %}
-						<article id="{{ p.order }}">
+							<article id="{{ p.title | downcase }}">
 							<h2 class="major">{{ p.title }}</h2>
 							{{ p.content | markdownify }}
 						</article>
