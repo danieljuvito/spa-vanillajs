@@ -1,6 +1,6 @@
 ---
 title: Work
-position: 1
+position: 0
 show: true
 link: "#work"
 ---
