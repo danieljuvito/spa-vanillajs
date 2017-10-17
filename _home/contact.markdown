@@ -2,7 +2,7 @@
 title: Contact
 position: 3
 show: true
-link: '#contact'
+link: "#contact"
 ---
 
 <form method="post" action="#">

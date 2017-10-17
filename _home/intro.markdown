@@ -2,7 +2,7 @@
 title: Intro
 position: 0
 show: true
-link: '#intro'
+link: "#intro"
 ---
 
 <span class="image main">![](images/pic01.jpg)</span>

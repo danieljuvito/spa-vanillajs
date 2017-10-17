@@ -2,7 +2,7 @@
 title: Work
 position: 1
 show: true
-link: '#work'
+link: "#work"
 ---
 
 <span class="image main">![](images/pic02.jpg)</span>

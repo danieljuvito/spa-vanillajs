@@ -2,7 +2,7 @@
 title: About
 position: 2
 show: true
-link: '#about'
+link: "#about"
 ---
 
 <span class="image main">![](images/pic03.jpg)</span>
