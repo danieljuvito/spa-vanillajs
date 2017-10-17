@@ -5,7 +5,7 @@ show: true
 link: "#work"
 ---
 
-<span class="image main">![](images/pic02.jpg)</span>
+<span class="image main">![](/uploads/bg01.jpg)</span>
 
 Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
 
