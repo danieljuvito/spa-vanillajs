@@ -1,84 +1,52 @@
----
-title: Jack of All Trades
-timezone: Asia/Jakarta
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+owner:
+  name: Daniel Allan Juvito
+  email: danieljuvito@gmail.com
+  twitter: danieljuvito
+  github:  danieljuvito
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-coffeescript
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Collections
 collections:
   home:
     title: Home
     output: false
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-description: Master of All
-disqus_shortname: danieljuvito
-reading_time: true
-words_per_minute: 200
-url: 
-owner:
-  name: Daniel Juvito
-  avatar: vito.jpg
-  bio: Human Wannabe.
-  email: danieljuvito@gmail.com
-  twitter: danieljuvito
-  facebook: danieljuvito
-  github: danieljuvito
-  stackexchange: 
-  linkedin: 
-  instagram: danieljuvito
-  flickr: 
-  tumblr: 
-  google_plus: 
-background: 
-google_analytics: 
-google_verify: 
-bing_verify: 
-future: false
-highlighter: rouge
-markdown: kramdown
-gems:
-- jekyll-sitemap
-- jekyll-paginate
-- jekyll-gist
-- jekyll-feed
-sass:
-  sass_dir: _sass
-  style: compressed
-permalink: "/:categories/:title/"
-paginate: 5
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-include:
-- ".htaccess"
-exclude:
-- "*.less"
-- "*.sublime-project"
-- "*.sublime-workspace"
-- ".asset-cache"
-- ".bundle"
-- ".jekyll-assets-cache"
-- ".sass-cache"
-- CHANGELOG
-- Capfile
-- Gemfile
-- Gruntfile.js
-- LICENSE
-- README
-- Rakefile
-- config
-- gulpfile.js
-- lib
-- log
-- node_modules
-- package.json
-- spec
-- tmp
-- _excludes
-gist:
-  noscript: false

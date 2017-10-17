@@ -1,0 +1,60 @@
+{% assign home = site.home | where: 'show', true | sort: 'order' %}
+
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								{{ page.content }}
+							</div>
+						</div>
+						<nav>
+							<ul>
+								{% for p in home %}
+								<li><a href="{{ p.order | prepend: '#' }}">{{ p.title }}</a></li>
+								{% endfor %}
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						{% for p in home %}
+						<article id="{{ p.order }}">
+							<h2 class="major">{{ p.title }}</h2>
+							{{ p.content | markdownify }}
+						</article>
+						{% endfor %}
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						{% include footer.html %}
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			{% include scripts.html %}
+
+	</body>
+</html>
