@@ -22,6 +22,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
+								<h1>{{ page.title }}</h1>
 								{{ page.content | markdownify }}
 							</div>
 						</div>
@@ -38,7 +39,7 @@
 					<div id="main">
 
 						{% for p in home %}
-							<article id="{{ p.title | downcase }}">
+							<article id="{{ p.title | slugify }}">
 							<h2 class="major">{{ p.title }}</h2>
 							{{ p.content | markdownify }}
 						</article>
