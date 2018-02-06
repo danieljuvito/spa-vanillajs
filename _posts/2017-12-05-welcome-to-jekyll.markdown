@@ -1,13 +1,13 @@
 ---
-layout: post
 title: Welcome to Jekyll!
-subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
-author: Daniel Juvito
-date: 2017-12-05 00:02:30 Z
-image_url: images/pic01.jpg
+date: 2017-12-05 07:02:30 +07:00
 categories:
 - jekyll
 - update
+layout: post
+subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
+author: Daniel Juvito
+image_url: images/pic01.jpg
 comments: true
 ---
 

@@ -1,12 +1,12 @@
 ---
-layout: post
 title: yeyelala
-subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
-author: Daniel Juvito
-date: 2018-02-05 20:37:00 Z
+date: 2018-02-06 03:37:00 +07:00
 categories:
 - jekyll
 - update
+layout: post
+subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
+author: Daniel Juvito
 comments: true
 ---
 

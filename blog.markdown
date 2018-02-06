@@ -1,5 +1,6 @@
 ---
 layout: blog
-pagination: 
+pagination:
   enabled: true
 ---
+
