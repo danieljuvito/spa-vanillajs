@@ -40,9 +40,9 @@
 
 						{% for p in home %}
 							<article id="{{ p.title | slugify }}">
-							<h2 class="major">{{ p.title }}</h2>
-							{{ p.content | markdownify }}
-						</article>
+								<h2 class="major">{{ p.title }}</h2>
+								{{ p.content | markdownify }}
+							</article>
 						{% endfor %}
 
 					</div>
