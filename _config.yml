@@ -27,8 +27,6 @@ owner:
 markdown: kramdown
 plugins:
 - jekyll-feed
-- jekyll-coffeescript
-- jekyll-paginate-v2
 pagination:
   enabled: true
   debug: false
