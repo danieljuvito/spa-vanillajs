@@ -2,7 +2,7 @@
 title: Abouta
 position: 2
 show: true
-link: '#about'
+link: "#about"
 ---
 
 ![](/uploads/pic03.jpg)
