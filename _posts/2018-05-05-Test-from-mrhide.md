@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test From Mr. Hide
+title: Test From Mr.Hide
 ---
 
 Insert lorem ipsum here.
