@@ -1,6 +1,6 @@
 window.customElements.define('counter-', class extends HTMLElement {
     #count = 0;
-    #shadow = this.attachShadow({mode: 'open'});
+    #shadow = this.attachShadow({ mode: 'open' });
 
     connectedCallback() {
         const elemCount = document.createTextNode(this.#count);
