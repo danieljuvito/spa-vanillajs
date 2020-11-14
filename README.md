@@ -1,1 +1,1 @@
-# danieljuvito.github.io
+# spa-vanillajs
