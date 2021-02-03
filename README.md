@@ -1,1 +1,1 @@
-# spa-vanillajs
+# Vanillajs
